@@ -8,10 +8,16 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: rgb(26, 10, 61);
+    background: rgb(26, 10, 61);
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+
+    
+    background-image: url('bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
 }
 
 .navbar {
@@ -297,4 +303,20 @@ i {
     margin-right: 200px;
   }
 
-  
+  .about {
+
+    background: rgb(26, 10, 61);
+    width: 100%;
+    height: 100vh;
+  }
+
+  .about h3{
+
+    text-align: center;
+    color:#dfded6;
+  }
+
+
+
+
+
