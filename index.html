@@ -1,9 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <link rel="icon" href="logo.png" type="image/x-icon" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Hi</title>
+    <title>Space Hacks</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Eczar&family=Nabla&display=swap"
+      rel="stylesheet"
+    />
   </head>
-  <body>Hi </body>
+  <body>
+    <nav class="navbar">
+      <div class="navbar__container">
+        <a href="index.html" id="navbar__logo">
+          <img src="logo.png" alt="" />Space Hacks</a
+        >
+        <ul class="navbar__menu">
+          <li class="navbar__btn">
+            <a href="about.html" class="button"> About </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="search">
+      <h3>LOOKUP :)</h3>
+      <input id="dateSearch" type="text" placeholder="YYYY-MM-DD" required />
+      <p id="description" class="text"></p>
+      <img id="spacePic" alt="" />
+      <script src="script.js"></script>
+      <button id="submit" onclick="call()">Find Out</button>
+    </div>
+  </body>
 </html>
+
